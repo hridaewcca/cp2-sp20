@@ -1,0 +1,34 @@
+The exceptionally useless box - https://v.redd.it/l0io7cqsab131
+Data
+  Proximity
+  Switch location
+  Actuation Distance
+Parts
+  Bottom arm
+  Top arm
+  Proximity sensors
+  Box
+  Switch
+Simulation
+  Bottom arm movement is tied to proximity sensor value
+  As distance between object and proximity sensor lowers, bottom arm gets closer to the switch
+  Once distance is low enough, bottom arm will flick the switch upwards
+  Once switch is in upwards position, top arm will be activated to flick it back down
+  
+  
+Wall line following robot - https://v.redd.it/6rtihnyaw7541
+Data
+  Left/Right motor speed
+  Line image
+Parts
+  Wheels
+  Motors
+  Battery
+  Magnets
+  Photosensor
+  Stepper motor
+Simulation
+  If black is in the middle - equal speed on both motors
+  If black is on the left - Increase right motor speed, decrease left motor speed
+  If black is on the right - Increase left motor speed, decrease right motor speed
+  If no black detected - both motors stop
